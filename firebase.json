@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "canteen-frontend-seller",
+          "appId": "1:758119065984:android:05d11afac8c3b6283c7965",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "canteen-frontend-seller",
+          "configurations": {
+            "android": "1:758119065984:android:05d11afac8c3b6283c7965",
+            "ios": "1:758119065984:ios:5d52a85bd732ca963c7965",
+            "web": "1:758119065984:web:eb349ebc09e0d4453c7965"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
